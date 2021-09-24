@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.team-matches-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d91c1f;
+  padding: 15px;
+}
+
+.team-banner {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.latest-match {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+.container-matches-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
